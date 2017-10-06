@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_top_margin"
+    android:orientation="vertical"
+    android:background="@color/defaultBgColor"
+    tools:context="com.cts.cheetah.view.notifications.fragment.NotificationsFragment">
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <ListView
+            android:id="@+id/notificationList"
+            android:dividerHeight="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <TextView
+        android:id="@+id/noItemsMessage"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trip.label.no.items"/>
+</FrameLayout>

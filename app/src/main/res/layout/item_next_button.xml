@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:gravity="center_vertical|right"
+    android:layout_marginBottom="5dp"
+    android:paddingRight="2dp">
+        <View
+            android:background="@color/deepDarkgrey"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="1dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/mapReportBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/map_alert"/>
+
+                <Button
+                    android:id="@+id/nextButton"
+                    android:text="@string/trip.label.next"
+                    fontPath="fonts/Oswald-Regular.ttf"
+                    android:textSize="@dimen/order_oval_btn_text_size"
+                    android:background="@drawable/orange_rect_btn"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_width="@dimen/order_oval_btn_width"
+                    android:layout_height="@dimen/order_oval_btn_height" />
+        </RelativeLayout>
+    <!--BOTTOM BUTTONS-->
+</LinearLayout>

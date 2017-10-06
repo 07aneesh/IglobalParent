@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_driver_account"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@color/appBarBgColor"
+    tools:context="com.cts.cheetah.view.accounts.DriverAccountFragment">
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="1"-->
+        <!--android:background="@color/colorPrimary">-->
+            <!---->
+
+        <!--&lt;!&ndash;<com.google.android.gms.maps.MapView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/map"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="match_parent"/>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<com.google.android.gms.maps.MapView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/map"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:apiKey="@string/google_maps_key"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:clickable="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:enabled="true" />&ndash;&gt;-->
+        <!--&lt;!&ndash;ver 2&ndash;&gt;-->
+
+
+        <!--&lt;!&ndash;<fragment&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/map"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;class="com.google.android.gms.maps.SupportMapFragment" />&ndash;&gt;-->
+
+    <!--</LinearLayout> -->
+    <Spinner
+        android:id="@+id/my_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+                    <fragment android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:map="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+</LinearLayout>

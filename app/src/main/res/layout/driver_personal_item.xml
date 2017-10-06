@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/deepDarkgrey"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="11dp"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="11dp"
+        android:background="@color/darkgrey"/>
+    <!--BASIC INFORMATION-->
+    <TextView
+        android:text="@string/basic.info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        style="@style/listItemHeading"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="5dp"
+        android:id="@+id/textView" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="@string/address"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="0dp"
+                style="@style/listItemSubHeading"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/driverAddress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/account_list_item_gap"
+                android:paddingBottom="0dp"
+                style="@style/listItem"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="@string/date.of.birth"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="0dp"
+                style="@style/listItemSubHeading"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/driverDoB"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/account_list_item_gap"
+                android:paddingBottom="0dp"
+                style="@style/listItem"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="@string/city"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="0dp"
+                style="@style/listItemSubHeading"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/driverCity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/account_list_item_gap"
+                android:paddingBottom="0dp"
+                style="@style/listItem"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="@string/state"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="0dp"
+                style="@style/listItemSubHeading"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/driverState"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/account_list_item_gap"
+                android:paddingBottom="0dp"
+                style="@style/listItem"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="@string/country"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="0dp"
+                style="@style/listItemSubHeading"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/driverCountry"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/account_list_item_gap"
+                android:paddingBottom="0dp"
+                style="@style/listItem"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--BASIC INFORMATION-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/darkgrey"/>
+
+    <!--CONTACT INFORMATION-->
+    <TextView
+        android:text="@string/contact.info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        style="@style/listItemHeading"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="5dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="@string/phone.no"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="0dp"
+                style="@style/listItemSubHeading"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/driverPhoneNo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/account_list_item_gap"
+                android:paddingBottom="0dp"
+                style="@style/listItem"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="@string/secondary.phone.no"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="0dp"
+                style="@style/listItemSubHeading"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/driverSecondaryPhoneNo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/account_list_item_gap"
+                android:paddingBottom="0dp"
+                style="@style/listItem"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="@string/email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="0dp"
+                style="@style/listItemSubHeading"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/driverEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/account_list_item_gap"
+                android:paddingBottom="0dp"
+                style="@style/listItem"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </LinearLayout>
+    </LinearLayout>
+    <!--CONTACT INFORMATION-->
+</LinearLayout>

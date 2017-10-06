@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FCD16D</color>
+    <color name="colorPrimaryDark">#EC8F22</color>
+    <color name="colorAccent">#333436</color>
+
+    <color name="appBarBgColor">#6dfceb</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="deepDarkgrey">#2a292e</color>
+    <color name="darkestgrey">#212222</color>
+    <color name="darkgrey">#333435</color>
+    <color name="lightgrey">#8f8f8f</color>
+    <color name="map_path_color">#1E90FF</color>
+
+    <color name="defaultBgColor">#333436</color>
+    <color name="defaultFontColor">#8f8f8f</color>
+
+    <color name="listHeaderColor">#ffffff</color>
+    <color name="listItemHeadingColor">#fcd16d</color>
+    <color name="listItemSubHeadingColor">#bbbbbb</color>
+    <color name="listItemColor">#ffffff</color>
+
+    <color name="buttonTextColor_gold">#F8BF59</color>
+    <color name="expired_status_color">#dc504f</color>
+    <color name="pending_status_color">#8f8f8f</color>
+</resources>

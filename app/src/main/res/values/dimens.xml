@@ -1,0 +1,41 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_top_margin">20dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="small_margin">9sp</dimen>
+    <dimen name="heading_one">32dp</dimen>
+    <dimen name="heading_two">16dp</dimen>
+    <dimen name="peek_height">90dp</dimen>
+
+    <dimen name="large_heading_text">32sp</dimen>
+    <dimen name="medium_heading_text">24sp</dimen>
+    <dimen name="small_heading_text">18sp</dimen>
+    <dimen name="sub_text_size">12sp</dimen>
+    <dimen name="default_text_size">16sp</dimen>
+
+
+    <dimen name="heading_text_size">18dp</dimen>
+    <dimen name="sub_heading_text_size">16dp</dimen>
+    <dimen name="normal_text_size">16dp</dimen>
+    <dimen name="normal_text_size_small">15dp</dimen>
+
+    <dimen name="order_oval_btn_height">42dp</dimen>
+    <dimen name="order_oval_btn_width">100dp</dimen>
+    <dimen name="order_oval_btn_width_medium">120dp</dimen>
+    <dimen name="order_oval_btn_text_size">14dp</dimen>
+
+    <dimen name="account_list_item_gap">3dp</dimen>
+    <dimen name="account_list_item_padding">18dp</dimen>
+    <dimen name="record_box_item_gap">14dp</dimen>
+    <dimen name="record_items_margin">14dp</dimen>
+    <dimen name="record_doclist_margin">20dp</dimen>
+
+    <dimen name="dark_edit_text_height">42dp</dimen>
+    <dimen name="dark_editText_left_padding">15dp</dimen>
+
+    <dimen name="design_fab_size_normal">68dp</dimen>
+</resources>

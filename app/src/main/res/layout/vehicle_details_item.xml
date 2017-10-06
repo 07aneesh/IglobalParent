@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/deepDarkgrey"
+    android:paddingTop="0dp"
+    android:paddingBottom="15dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="11dp"
+        android:background="@color/darkgrey"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="@string/licensePlate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="0dp"
+                style="@style/listItemSubHeading"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/vehicleLicenseNo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/account_list_item_gap"
+                android:paddingBottom="0dp"
+                style="@style/listItem"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="@string/vinNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="0dp"
+                style="@style/listItemSubHeading"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/vehicleVinNo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/account_list_item_gap"
+                android:paddingBottom="0dp"
+                style="@style/listItem"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="@string/vehicleMake"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="0dp"
+                style="@style/listItemSubHeading"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/vehicleMake"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/account_list_item_gap"
+                android:paddingBottom="0dp"
+                style="@style/listItem"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="@string/vehicleType"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="0dp"
+                style="@style/listItemSubHeading"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/vehicleType"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/account_list_item_gap"
+                android:paddingBottom="0dp"
+                style="@style/listItem"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="@string/vehicleModel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="0dp"
+                style="@style/listItemSubHeading"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/vehicleModel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/account_list_item_gap"
+                android:paddingBottom="0dp"
+                style="@style/listItem"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="@string/rackCapacity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="0dp"
+                style="@style/listItemSubHeading"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/vehicleRackCapacity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/account_list_item_gap"
+                android:paddingBottom="0dp"
+                style="@style/listItem"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="@string/vehicleRackLength"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="0dp"
+                style="@style/listItemSubHeading"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/vehicleRackLength"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/account_list_item_gap"
+                android:paddingBottom="0dp"
+                style="@style/listItem"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--<TextView
+                android:text="@string/vehicleTare"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="0dp"
+                style="@style/listItemSubHeading"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/vehicleTare"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/account_list_item_gap"
+                android:paddingBottom="0dp"
+                style="@style/listItem"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />-->
+            <TextView
+                android:text="@string/vehicleCapacity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="0dp"
+                style="@style/listItemSubHeading"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/vehicleCapacity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/account_list_item_gap"
+                android:paddingBottom="0dp"
+                style="@style/listItem"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--<TextView
+                android:text="@string/vehicleCapacity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="0dp"
+                style="@style/listItemSubHeading"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/vehicleCapacity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/account_list_item_gap"
+                android:paddingBottom="0dp"
+                style="@style/listItem"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp" />-->
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

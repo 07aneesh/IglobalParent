@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_driver_account"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_top_margin"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg"
+    android:weightSum="1"
+    tools:context="com.cts.cheetah.view.accounts.DriverAccount">
+    <!--DRIVER ACCOUNT HEADER START-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:weightSum="1"
+        android:layout_weight=".16">
+
+        <!--DRIVER DETAILS-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight=".48"
+            android:layout_gravity="left"
+            android:orientation="horizontal"
+            android:gravity="top|left"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary" >
+            <ImageView
+                android:layout_height="100dp"
+                android:layout_width="100dp"
+                android:layout_gravity="top"
+                android:src="@drawable/driver"
+                android:id="@+id/driverImage"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:orientation="vertical">
+            <TextView
+                android:id="@+id/driverName"
+                android:textColor="@color/black"
+                android:text="Driver"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/driverId"
+                android:textColor="@color/black"
+                android:text="Driver 01"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/driverLogoutBtn"
+                android:text="@string/driver.label.logout"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/black_rect_btn"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!--DRIVER DETAILS-->
+        <View
+            android:layout_width="0dp"
+            android:layout_weight=".04"
+            android:layout_height="match_parent"/>
+        <!--CAR DETAILS-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight=".48"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="top|left"-->
+            <!--android:orientation="horizontal">-->
+            <!--<ImageView-->
+                <!--android:layout_height="100dp"-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:src="@drawable/driver"-->
+                <!--android:id="@+id/vehicleImage"/>-->
+            <!--<LinearLayout-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:paddingLeft="10dp"-->
+                <!--android:orientation="vertical">-->
+                <!--<TextView-->
+                    <!--android:id="@+id/vehicleId"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:text="R 89 J5"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" />-->
+                <!--<TextView-->
+                    <!--android:id="@+id/vehicleType"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:text="Pickup Truck"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" />-->
+        <!--</LinearLayout>-->
+        <!--&lt;!&ndash;CAR DETAILS&ndash;&gt;-->
+    <!--</LinearLayout>-->
+    <!--DRIVER ACCOUNT HEADER END -->
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="20dp"
+        android:background="@color/darkgrey"
+        android:layout_weight=".85">
+        <ExpandableListView
+            android:id="@+id/driverDetailsExpandableList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/darkgrey"
+            android:dividerHeight="5dp"/>
+    </LinearLayout>
+</LinearLayout>

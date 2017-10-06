@@ -1,0 +1,221 @@
+<resources>
+    <string name="app_name">IGLOBALS Parent</string>
+    <!--COMMON-->
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+    <string name="arrived">Arrived</string>
+    <string name="status">Status</string>
+    <string name="service_error_noConnection">No network Connection</string>
+    <string name="update">Update</string>
+    <string name="go_offline">GO OFFLINE</string>
+    <string name="go_online">GO ONLINE</string>
+    <string name="go_online_message">You are offline now.</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="invalid_session">Your session has expired. Please log in again</string>
+    <string name="add_image">Add Image</string>
+    <string name="add_accessorial">Add Accessorials</string>
+    <string name="upload_image_error">Upload failure. Please try again</string>
+    <string name="could_not_file_image">Could not find the filepath of the selected file</string>
+    <string name="service_timout_error">Time out error. Please try again</string>
+    <string name="message_oops_something_wrong">Oops something went wrong</string>
+    <string name="dcoument_images_required">Document images required</string>
+    <string name="max_input_limit_normal">50</string>
+    <string name="currency_symbol">$ </string>
+
+    <string name="question.message.cameraPermissionEnquiry">Enable camera access to get camera preview.</string>
+
+    <!--SPLASH-->
+    <string name="splash.gps.dialog.title">Enable GPS Service</string>
+    <string name="splash.gps.dialog.message">To use this application, enable the access to your location and the GPS satellites in the settings</string>
+
+    <!--LOGIN-->
+    <string name="login">Login</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="login.label.forceLogOut">Force Log Out</string>
+    <string name="login.label.userId">Email</string>
+    <string name="login.label.email">Email</string>
+    <string name="login.label.signIn">Sign In</string>
+    <string name="login.label.password">Password</string>
+    <string name="login.message.enterUserName">Please enter your username</string>
+    <string name="login.message.enterPassword">Please enter your password</string>
+    <string name="login.message.passwordCount">You have entered an invalid password. A password must have a minimum of 6 characters. </string>
+    <string name="forgotpassword">Forgot Password?</string>
+    <string name="resetpassword">Reset Password</string>
+    <string name="back.to.login">Back to Login</string>
+    <string name="password.reset.direction">Enter your email address and we will send you a link to reset your password</string>
+    <string name="login.loader.loaderTag">"Loader"</string>
+    <string name="unauthorized">Your session has expired. Please log in again</string>
+    <string name="login.wrong.credentails">You have entered an invalid username or password</string>
+
+    <!--LOGIN-->
+    <string name="logout">Logout</string>
+    <string name="do_you_want_to_logout">Are you sure you want to logout?</string>
+    <string name="logout_failure">Logout failure</string>
+    <string name="logout_success">Logout success</string>
+    <string name="login_again">Please login</string>
+
+    <!--IMAGE PREVIEW-->
+    <string name="image.preview.title">Image Preview</string>
+
+
+    <!--TRIP DASHBOARD STRINGS-->
+    <string name="trip.alert.cancel">Are you sure want to cancel this trip?</string>
+    <string name="trip.alert.accept">Are you sure want to accept this trip?</string>
+    <string name="trip.alert.completed.trip">Are you sure want to complete this trip?</string>
+    <string name="trip.activity.trip.title">Orders</string>
+    <string name="trip.activity.trip.details">Trip Request Details</string>
+
+    <string name="trip.label.accessorial">Accessorial</string>
+    <string name="trip.label.notes">Notes</string>
+    <string name="trip.label.upload.documents">Upload your documents</string>
+    <string name="trip.label.arrived">Arrived</string>
+    <string name="trip.label.arriving">Arriving</string>
+    <string name="trip.label.contacts">Contacts</string>
+    <string name="trip.label.alternate.contacts">Alternate Contacts</string>
+    <string name="trip.label.safety.instructions">Safety Instructions</string>
+    <string name="trip.label.completed">COMPLETED</string>
+    <string name="trip.label.myTrips">MY TRIPS</string>
+    <string name="trip.label.tripRequest">TRIP REQUEST</string>
+    <string name="trip.label.orders">ORDERS</string>
+    <string name="trip.label.earnings">EARNINGS</string>
+    <string name="trip.label.account">ACCOUNT</string>
+    <string name="trip.label.notifications">NOTIFICATIONS</string>
+    <string name="trip.label.earnings.small">Earnings : </string>
+    <string name="trip.label.start">Start</string>
+    <string name="trip.label.resume">Resume</string>
+    <string name="trip.label.cancel">Cancel</string>
+    <string name="trip.label.accept">Accept</string>
+    <string name="trip.label.reject">Reject</string>
+    <string name="trip.label.next">Next</string>
+    <string name="trip.label.shipment.details">Shipment Details</string>
+    <string name="trip.label.itemname">Item Name</string>
+    <string name="trip.label.package.type">Package Type</string>
+    <string name="trip.label.quantity">Quantity</string>
+    <string name="trip.label.weight">Weight</string>
+    <string name="trip.label.dimension">Dimension</string>
+    <string name="dashboard_label_enterKeyword">Enter keyword</string>
+    <string name="trip.label.continue">Continue</string>
+    <string name="trip.label.drop">Drop</string>
+    <string name="trip.label.drop.off">Drop Off</string>
+    <string name="trip.label.no.trip.request">No Trip Request</string>
+    <string name="trip.label.no.trips">No Trips</string>
+    <string name="trip.label.no.upcoming.trips">No Upcoming Trips</string>
+    <string name="trip.label.no.items">No items to show</string>
+    <string name="trip.label.no.completed.trips">No completed trips</string>
+    <string name="trip.label.roundtrip">Round Trip</string>
+    <string name="trip.label.miles">miles</string>
+    <string name="trip.label.mins">mins</string>
+
+    <string name="trip.package.commodity">Commodity</string>
+    <string name="trip.package.type">Package Type</string>
+    <string name="trip.package.quantity">Quantity</string>
+    <string name="trip.package.weight">Weight</string>
+    <string name="trip.package.dimension">Dimension</string>
+    <string name="trip.package.item.description">Item Description</string>
+    <string name="trip.package.hazard.title">Hazardous Material</string>
+    <string name="trip.package.hazard.pg">PG</string>
+    <string name="trip.package.hazard.id">UN ID Number</string>
+    <string name="trip.package.hazard.description">Description of Articles</string>
+    <string name="trip.package.hazard.class">Hazardous Class</string>
+
+
+    <string name="request_fineLocation_message">Required Access fine location permission</string>
+    <string name="title_activity_maps">Map</string>location_updated_message
+    <string name="location_updated_message">Location updated</string>
+    <string name="last_update_time_label">Last updated time</string>
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+    <string name="start_updates">start updates</string>
+    <string name="stop_updates">stop updates</string>
+
+    <string name="trip.estimated.earnings">Estimated Earnings</string>
+    <string name="trip.base.pay">Base Pay</string>
+    <string name="trip.fuel.surcharge">Fuel Surcharge</string>
+    <string name="trip.reject">Why did you cancel?</string>
+    <string name="trip.my.reason">Type your reason</string>
+    <string name="customer.signature">Customer Signature</string>
+    <string name="customer.sign.date">Date</string>
+    <string name="customer.sign.time">Time</string>
+
+    <!--DRIVER ACCOUNT STRINGS-->
+    <string name="accounts.label.title">Account</string>
+    <string name="accounts.label.license">License</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="document_name">Document Name</string>
+    <string name="document_status">Status</string>
+
+    <string name="driver.label.logout">LOGOUT</string>
+    <string name="driver.license">License</string>
+    <string name="driver.license.number">License Number</string>
+    <string name="basic.info">Basic Information</string>
+    <string name="date.of.birth">Date of Birth</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="contact.info">Contact Information</string>
+    <string name="phone.no">Phone No</string>
+    <string name="secondary.phone.no">Secondary Phone No</string>
+    <string name="email">Email</string>
+    <string name="licensePlate">License Plate</string>
+    <string name="vinNumber">VIN Number</string>
+    <string name="vehicleMake">Make</string>
+    <string name="vehicleType">Vehicle Type</string>
+    <string name="vehicleModel">Model</string>
+    <string name="rackCapacity">Rack Capacity</string>
+    <string name="vehicleRackLength">Rack Length</string>
+    <string name="vehicleTare">Tare</string>
+    <string name="vehicleCapacity">Capacity</string>
+
+    <string name="abaRouting">ABA/Routing No</string>
+    <string name="name.of.bank">Name Of Bank</string>
+    <string name="account.no">Account Number</string>
+    <string name="account.holder.name">Account Holder Name</string>
+    <string name="account.type">Account Type</string>
+    <string name="percentage">Percentage</string>
+    <string name="no.record">No Record</string>
+
+    <string name="take.document.photo">Upload photo(s) of the document</string>
+    <string name="document.select.options">Please select an option</string>
+    <string name="document.enter.name">Please enter a file name</string>
+    <string name="take.document.photo.instruction">Select the photo of the document that you need to upload. Ensure that they are clear and the contents are readable.</string>
+    <string name="driver.medical">Medical</string>
+    <string name="driver.safety.score">Safety Score</string>
+    <string name="enter.license.no">Please enter license number</string>
+    <string name="enter.document.name">Please enter document name</string>
+    <string name="save.document.alert">Are you sure to save?</string>
+
+    <!--DRIVER ACCOUNT STRINGS-->
+
+    <!--EARNINGS STRINGS-->
+    <string name="earnings.label.title">Earnings</string>
+    <string name="earnings.label.daily.title">Daily Earnings</string>
+    <string name="earnings.label.earnings">Earnings</string>
+    <string name="earnings.label.payouts">Payouts</string>
+    <string name="earnings.label.today">Today</string>
+    <string name="earnings.weekly.deductions">Weekly Deductions</string>
+    <string name="earnings.weekly.earnings">Weekly Earnings</string>
+    <string name="base.pay">Base Pay</string>
+    <string name="total.payout">Total Payout</string>
+    <string name="fuel.surcharge">Fuel Surcharge</string>
+    <!--EARNINGS STRINGS-->
+
+    <!--NOTIFICATION STRINGS-->
+    <string name="notifications.label.title">Notifications</string>
+    <!--NOTIFICATION STRINGS-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_new_test_maps">Map</string>
+
+    <!-- Paint UI Strings -->
+    <string name="paint.message.memoryWarning">Out of memory</string>
+    <string name="paint.label.btnSaveLabel">Save</string>
+
+
+    <string name="trip.label.GPS">GPS</string>
+    <string name="accounts.label.GPS">GPS</string>
+    <string name="google_maps_key">AIzaSyAmp13zyuSo8gvuPNzzicRHKW7ZQP51IfA</string>
+</resources>

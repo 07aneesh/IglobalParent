@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.TabLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomTabs"
+    android:layout_weight=".11"
+    android:background="@drawable/tab_bg"
+    style="@style/MyCustomTabLayout"
+    app:tabTextColor="@color/darkgrey"
+    app:tabSelectedTextColor="@color/darkgrey"
+    app:tabIndicatorColor="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    app:tabMaxWidth="0dp"
+    app:tabGravity="fill"
+    app:tabMode="fixed"/>

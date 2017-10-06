@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "177755389104",
+    "firebase_url": "https://cheetah-tablet-android.firebaseio.com",
+    "project_id": "cheetah-tablet-android",
+    "storage_bucket": "cheetah-tablet-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177755389104:android:bab6e915efbe87f2",
+        "android_client_info": {
+          "package_name": "com.cts.cheetah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177755389104-91nahbkeeqd3oraihn0hjctedne5pud0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cts.cheetah",
+            "certificate_hash": "b77b5e2438ec17e59bd3010d8f2c0ee2882a5666"
+          }
+        },
+        {
+          "client_id": "177755389104-c7uoldnpo1vivbgli3h86p07omgupb4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcKiIkmOugmm1aC-WtPfalEMJ5f7tHLGY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177755389104-c7uoldnpo1vivbgli3h86p07omgupb4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
